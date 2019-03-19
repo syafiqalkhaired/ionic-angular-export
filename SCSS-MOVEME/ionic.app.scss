@@ -1,0 +1,16 @@
+$SIDEMENU_TRANSPARENCY: rgba(255,255,255,0.4);
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.side-menu-item {
+	background: none;
+	color: white;
+	font-weight: 300;
+	border: 0px;
+	.item-content {
+		background: none;
+		&.activated {
+			background: $SIDEMENU_TRANSPARENCY;
+		}
+		
+	}
+}
